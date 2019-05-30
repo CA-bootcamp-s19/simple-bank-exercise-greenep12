@@ -14,7 +14,7 @@ contract SimpleBank {
     
     /* Fill in the keyword. Hint: We want to protect our users balance from other contracts*/
     mapping (address => uint) balances;
-    
+    TEST    
     /* Fill in the keyword. We want to create a getter function and allow contracts to be able to see if a user is enrolled.  */
     mapping (address => bool) enrolled;
 
